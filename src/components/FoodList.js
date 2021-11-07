@@ -1,4 +1,3 @@
-import { useDebugValue } from "react";
 import FoodCard from "./FoodCard";
 
 const Foods = [
