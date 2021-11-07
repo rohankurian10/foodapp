@@ -10,6 +10,8 @@
   margin-top: 13rem;
   width: 60%;
   height: 40rem;
+  display: flex;
+  flex-direction: column;
   border-radius: 1rem;
   background-color: #393e46;
   margin-bottom: 3rem;
