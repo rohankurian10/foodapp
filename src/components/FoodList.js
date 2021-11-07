@@ -36,6 +36,7 @@ let FoodList = () => {
       price={value.price}
     />
   ));
+  console.log(data);
   return <>{data}</>;
 };
 
