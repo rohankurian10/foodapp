@@ -1,0 +1,4 @@
+.FoodCard {
+  display: flex;
+  flex-direction: column;
+}
