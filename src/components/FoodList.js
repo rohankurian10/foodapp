@@ -1,3 +1,4 @@
+import { useDebugValue } from "react";
 import FoodCard from "./FoodCard";
 
 const Foods = [
@@ -28,12 +29,15 @@ const Foods = [
 ];
 
 let FoodList = () => {
-    
-  return (
-    <>
-      <FoodCard></FoodCard>
-    </>
-  );
+  const data = Foods.map((value) => (
+    <FoodCard
+      id={value.id}
+      name={value.name}
+      description={value.description}
+      price={value.price}
+    />
+  ));
+  return <>{data}</>;
 };
 
 export default FoodList;
