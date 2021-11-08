@@ -8,7 +8,6 @@ let FoodCard = (props) => {
         <div className="LeftSide">
           <div className="Name">
             <b>{props.name}</b>
-            asjkhdgashkdg
           </div>
           <div className="Description">
             <i>{props.description}</i>
