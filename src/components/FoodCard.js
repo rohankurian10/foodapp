@@ -22,7 +22,7 @@ let FoodCard = (props) => {
             <input type="number"></input>
           </div>
           <div className="Div2">
-            <button>Add</button>
+            <button>+Add</button>
           </div>
         </div>
       </div>
