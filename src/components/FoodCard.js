@@ -18,6 +18,7 @@ let FoodCard = (props) => {
         </div>
         <div className="RightSide">
           <input></input>
+          <button></button>
         </div>
       </div>
       <div className="Hr">
