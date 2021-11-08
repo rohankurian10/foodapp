@@ -1,8 +1,11 @@
 import "./FoodCard.css";
 
 let FoodCard = (props) => {
-  let fun1 = (abcc) => {
-    console.log("abc", abcc.target.value);
+  let count = 0;
+  let addCounter = (val) => {
+    let id = val.target.value;
+    count = count + 1;
+    document.getElementById(id).value = count;
   };
   return (
     <>
@@ -21,10 +24,10 @@ let FoodCard = (props) => {
         <div className="RightSide">
           <div className="Div1">
             <p>Amount </p>
-            <input type="number"></input>
+            <input type="number" id={props.keys}></input>
           </div>
           <div className="Div2">
-            <button onClick={fun1} value={props.keys}>
+            <button onClick={addCounter} value={props.keys}>
               +Add
             </button>
           </div>
