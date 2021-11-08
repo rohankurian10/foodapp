@@ -36,7 +36,7 @@ let FoodList = () => {
       description={value.description}
       price={value.price}
       key={key}
-      key1={key}
+      keys={key}
     />
   ));
   return <div className="FoodList">{data}</div>;
