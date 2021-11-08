@@ -36,9 +36,9 @@ let FoodList = () => {
       description={value.description}
       price={value.price}
       key={key}
+      key1={key}
     />
   ));
-  console.log(data);
   return <div className="FoodList">{data}</div>;
 };
 

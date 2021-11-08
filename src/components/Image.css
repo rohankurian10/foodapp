@@ -9,12 +9,11 @@
 }
 
 .Image div {
-  margin-top: 5rem;
+  margin-top: -10rem;
   width: 50rem;
   height: 20rem;
   background-color: #393e46;
   border-radius: 1rem;
-  position: absolute;
   top: 32rem;
   display: flex;
   flex-direction: column;

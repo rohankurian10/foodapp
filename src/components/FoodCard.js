@@ -1,7 +1,11 @@
 import "./FoodCard.css";
 
 let FoodCard = (props) => {
-  console.log(props.key);
+  let abc = () => {
+    let abc = document.getElementById("btn").value;
+    console.log("inside function", abc);
+    return;
+  };
   return (
     <>
       <div className="FoodCard">
@@ -22,7 +26,9 @@ let FoodCard = (props) => {
             <input type="number"></input>
           </div>
           <div className="Div2">
-            <button>+Add</button>
+            <button id="btn" onClick={abc} value={props.key1}>
+              +Add
+            </button>
           </div>
         </div>
       </div>
