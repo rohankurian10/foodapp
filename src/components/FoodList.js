@@ -1,4 +1,5 @@
 import FoodCard from "./FoodCard";
+import "./FoodList.css";
 
 const Foods = [
   {
@@ -37,7 +38,7 @@ let FoodList = () => {
     />
   ));
   console.log(data);
-  return <>{data}</>;
+  return <div className="FoodList">{data}</div>;
 };
 
 export default FoodList;
