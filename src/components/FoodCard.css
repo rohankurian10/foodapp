@@ -8,7 +8,7 @@
 
 .LeftSide {
   height: 100%;
-  width: 50%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -16,12 +16,59 @@
 }
 
 .RightSide {
-  width: 50%;
+  width: 30%;
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: flex-end;
 }
+
+.Div1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+p {
+  color: white;
+  font-weight: 700;
+}
+input {
+  width: 2rem;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  border: 0;
+  color: white;
+  border: 1px solid white;
+  background-color: #383d45;
+}
+
+.Div2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.Div2 button {
+  border-radius: 1rem;
+  border: 0;
+  width: 50%;
+  height: 2rem;
+  background-color: #222831;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: 300ms;
+}
+
+.Div2 button:hover {
+  background-color: #393e46;
+  border: 1px solid #222831;
+}
+
 .Hr {
   display: flex;
   justify-content: center;
