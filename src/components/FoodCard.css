@@ -38,11 +38,11 @@ p {
 }
 input {
   width: 2.7rem;
-  height: 1.5rem;
+  height: 1.3rem;
   border-radius: 0.3rem;
   border: 0;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1rem;
   border: 1px solid #222831;
   background-color: #383d45;
@@ -60,7 +60,7 @@ input {
   border: 0;
   width: 50%;
   height: 2rem;
-  background-color: #222831;
+  background-color: #00adb5;
   color: white;
   font-weight: 700;
   font-size: 1rem;
@@ -68,8 +68,7 @@ input {
 }
 
 .Div2 button:hover {
-  background-color: #393e46;
-  border: 1px solid #222831;
+  background-color: #222831;
 }
 
 .Hr {
