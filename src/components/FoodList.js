@@ -29,12 +29,13 @@ const Foods = [
 ];
 
 let FoodList = () => {
-  const data = Foods.map((value) => (
+  const data = Foods.map((value, key) => (
     <FoodCard
       id={value.id}
       name={value.name}
       description={value.description}
       price={value.price}
+      key={key}
     />
   ));
   console.log(data);

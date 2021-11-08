@@ -1,6 +1,7 @@
 import "./FoodCard.css";
 
 let FoodCard = (props) => {
+  console.log(props.key);
   return (
     <>
       <div className="FoodCard">
