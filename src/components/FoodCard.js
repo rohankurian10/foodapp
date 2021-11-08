@@ -16,7 +16,9 @@ let FoodCard = (props) => {
             <b>${props.price}</b>
           </div>
         </div>
-        <div className="RightSide"></div>
+        <div className="RightSide">
+          <input></input>
+        </div>
       </div>
       <div className="Hr">
         <hr></hr>
