@@ -5,3 +5,8 @@ let CartLogo = (props) => {
 };
 
 export default CartLogo;
+
+// kjdfgbkdslfhgkjlshrgkljdfklgjdfhgkj
+// \dsfl;jhgjdojfg
+// dfgkljdjfg
+// [dfgo]
