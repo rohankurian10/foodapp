@@ -1,4 +1,5 @@
 import "./Header.css";
+import CartLogo from "./CartLogo";
 
 let Header = () => {
   return (
@@ -6,6 +7,7 @@ let Header = () => {
       <div className="Header-Inside">
         <h1>React Food</h1>
       </div>
+      <CartLogo />
     </div>
   );
 };

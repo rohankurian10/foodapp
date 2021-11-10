@@ -1,5 +1,7 @@
 import "./CartLogo.css";
 
-let CartLogo = () => {};
+let CartLogo = (props) => {
+  return <div className="CartLogo"></div>;
+};
 
 export default CartLogo;
