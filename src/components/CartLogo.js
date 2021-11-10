@@ -5,5 +5,3 @@ let CartLogo = (props) => {
 };
 
 export default CartLogo;
-
-//One last test
